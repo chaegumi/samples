@@ -18,9 +18,10 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"samples/WebIM/models"
+
 	"github.com/astaxie/beego"
 	"github.com/gorilla/websocket"
-	"github.com/beego/samples/WebIM/models"
 )
 
 // WebSocketController handles WebSocket requests.
